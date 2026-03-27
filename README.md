@@ -46,8 +46,6 @@ apk-name-extractor/
       launcher.py
   tools/
     .gitkeep
-  build/
-    apk_name_extractor.spec
 ```
 
 ## 运行依赖
@@ -56,9 +54,8 @@ apk-name-extractor/
 
 程序会按下面的顺序查找依赖：
 
-1. 打包后的应用目录中的 `apktool_*.jar`
-2. 仓库里的 `tools/apktool_*.jar`
-3. 系统环境中的 `apktool` 命令
+1. 仓库里的 `tools/apktool_*.jar`
+2. 系统环境中的 `apktool` 命令
 
 如果你使用的是 `jar` 方式，还需要本机安装 Java。
 
@@ -92,7 +89,7 @@ tools/apktool_3.0.1.jar
 
 文件名只要符合 `apktool_*.jar` 即可。
 
-这样项目在本地运行和 PyInstaller 打包时都能优先找到它。
+这样项目在本地运行时就能优先找到它。
 
 ## 输出结果
 
@@ -109,23 +106,6 @@ tools/apktool_3.0.1.jar
 
 - `preferred_chinese_name`：优先从简体中文、中文 fallback、港澳台繁体等目录中挑一个最合适的中文名称
 - `preferred_display_name`：如果没有更合适的中文值，则进一步回退到默认 `values`
-
-## 打包为 macOS App
-
-先安装 PyInstaller：
-
-```bash
-python3 -m pip install pyinstaller
-```
-
-再执行打包：
-
-```bash
-cd apk-name-extractor
-PYTHONPATH=src pyinstaller build/apk_name_extractor.spec
-```
-
-生成结果会出现在 `dist/` 目录下。
 
 ## 当前状态
 
