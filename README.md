@@ -144,3 +144,13 @@ PYTHONPATH=src pyinstaller build/apk_name_extractor.spec
 ## License
 
 本项目当前使用仓库内提供的非商用许可证，允许使用、修改和再发布，但不允许商用。详情见 [LICENSE](LICENSE)。
+
+## Third-Party Notices
+
+本项目使用了第三方工具 `Apktool` 进行 APK 拆包。
+
+- 项目地址: [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool)
+- 发布页: [Apktool Releases](https://github.com/iBotPeaches/Apktool/releases)
+- 许可协议: Apache License 2.0
+
+更完整的第三方声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
