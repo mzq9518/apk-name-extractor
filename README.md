@@ -127,16 +127,6 @@ PYTHONPATH=src pyinstaller build/apk_name_extractor.spec
 
 生成结果会出现在 `dist/` 目录下。
 
-## 关于 DMG
-
-`.dmg` 只是 macOS 的分发包装，不会自动解决运行依赖问题。
-
-如果你要发布给别人使用，推荐顺序是：
-
-1. 先维护好 GitHub 仓库版本
-2. 再构建 `.app`
-3. 最后按需要封装成 `.dmg`
-
 ## 当前状态
 
 项目代码已经完成项目化整理，但是否能真正执行拆包，取决于你本地是否提供了可用的 `apktool` 与 Java 运行环境。
