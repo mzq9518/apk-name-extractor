@@ -143,4 +143,4 @@ PYTHONPATH=src pyinstaller build/apk_name_extractor.spec
 
 ## License
 
-如需公开发布，建议你补充自己的许可证说明，例如 `MIT`。
+本项目当前使用仓库内提供的非商用许可证，允许使用、修改和再发布，但不允许商用。详情见 [LICENSE](LICENSE)。

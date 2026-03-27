@@ -1,16 +1,30 @@
-MIT License
+APK Name Extractor Non-Commercial License
 
 Copyright (c) 2026 mzq9518
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and redistribute the Software, in source or binary form, subject
+to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Any redistribution of the Software, with or without modification, must
+   retain this copyright notice, this license text, and clear attribution to
+   the original author, mzq9518.
+
+2. Redistributions of modified versions must clearly indicate that changes were
+   made.
+
+3. The Software may not be used for commercial purposes. Commercial purposes
+   include, but are not limited to:
+   - selling the Software;
+   - bundling the Software into a paid product or service;
+   - offering paid hosting, paid support, paid customization, or paid
+     integration based primarily on the Software;
+   - using the Software in a business activity where the Software itself is a
+     direct source of revenue.
+
+4. No trademark or endorsement rights are granted. You may not imply that the
+   original author endorses your modified or redistributed version.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
