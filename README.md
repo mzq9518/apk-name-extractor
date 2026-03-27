@@ -73,7 +73,7 @@ apk-name-extractor/
 先进入项目目录：
 
 ```bash
-cd /Users/yumeyume/Documents/Playground/apk-name-extractor
+cd apk-name-extractor
 ```
 
 然后启动程序：
@@ -121,7 +121,7 @@ python3 -m pip install pyinstaller
 再执行打包：
 
 ```bash
-cd /Users/yumeyume/Documents/Playground/apk-name-extractor
+cd apk-name-extractor
 PYTHONPATH=src pyinstaller build/apk_name_extractor.spec
 ```
 
